@@ -42,14 +42,59 @@ input {
   font-family: inherit;
 }
 
-input {
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper > input {
   font-size: 1.2rem;
+  line-height: 1.4;
   width: 20vw;
   border: none;
   border-bottom: 2px solid var(--form-text-color);
   color: var(--form-text-color);
   background-color: transparent;
-  padding: 5px;
+  padding: 15px 10px 10px;
+}
+
+.input-wrapper > label {
+  position: absolute;
+  color: var(--form-text-color);
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  padding: 0 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:valid,
+input:focus:valid {
+  border-color: var(--primary-color);
+}
+
+input:invalid,
+input:focus:invalid {
+  border-color: red;
+}
+
+input:focus + label,
+input:valid + label {
+  color: var(--primary-color);
+  top: 5px;
+  font-size: 12px;
+  transform: translateY(0);
+}
+
+input:invalid:focus + label {
+  color: red;
+  top: 5px;
+  font-size: 12px;
+  transform: translateY(0);
 }
 
 .left-side-container {
@@ -95,4 +140,8 @@ p {
 a {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+a:hover {
+  text-decoration: underline;
 }
