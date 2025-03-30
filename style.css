@@ -11,6 +11,21 @@
   --text-color: #f6f6f6;
   --form-text-color: #4d5959;
   --font-style: "open_sansregular", sans-serif;
+
+  position: relative;
+}
+
+.website-logo {
+  position: absolute;
+  top: 5vh;
+  left: 3vw;
+  color: var(--text-color);
+  display: flex;
+  gap: 0.5vw;
+}
+
+.sign-up-logo {
+  height: 2em;
 }
 
 * {
@@ -104,6 +119,7 @@ input:invalid:focus + label {
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .right-side-container {
@@ -144,4 +160,9 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.sign-up-img {
+  width: 70%;
+  height: auto;
 }

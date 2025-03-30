@@ -5,14 +5,13 @@
 
 ## Overview
 
-This is a project from [The Odin Project](https://theodinproject.com): [Project: Calculator]([https://www.theodinproject.com/lessons/foundations-calculator](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)). This project had us create a sign-up form for an imaginery service.
+This is a project from [The Odin Project](https://theodinproject.com): [Project: Calculator](<[https://www.theodinproject.com/lessons/foundations-calculator](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)>). This project had us create a sign-up form for an imaginery service.
 
 ## Learning Points
 
 - Understood on how to use forms in HTML and how to style them in CSS
 - Understood basic form validation and form validation using Javascript
 - Implement more CSS knowledge learned during the course (Font styles, Selectors, Positioning, CSS Custom Properties, etc..)
-
 
 ## Tech Stack
 
@@ -23,5 +22,5 @@ This is a project from [The Odin Project](https://theodinproject.com): [Project:
 ## Roadmap
 
 - [x] Understanding the design requirements of the webpage we need to do
-- [ ] Taking inspiration from the design requirement given and add our own CSS into the webpage
+- [x] Taking inspiration from the design requirement given and add our own CSS into the webpage
 - [ ] Added Form validation for using Javascript
