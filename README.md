@@ -23,5 +23,5 @@ This is a project from [The Odin Project](https://theodinproject.com): [Project:
 ## Roadmap
 
 - [x] Understanding the design requirements of the webpage we need to do
-- [] Taking inspiration from the design requirement given and add our own CSS into the webpage
-- [] Added Form validation for using Javascript
+- [ ] Taking inspiration from the design requirement given and add our own CSS into the webpage
+- [ ] Added Form validation for using Javascript
