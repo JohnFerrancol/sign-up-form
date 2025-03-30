@@ -1,4 +1,98 @@
+@font-face {
+  font-family: "open_sansregular";
+  src: url("assets/fonts/opensans-regular-webfont.woff2") format("woff2"),
+    url("assets/fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #00b14f;
+  --text-color: #f6f6f6;
+  --form-text-color: #4d5959;
+  --font-style: "open_sansregular", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: black;
-  color: white;
+  display: flex;
+  height: 100vh;
+  font-family: "open_sanregular", sans-serif;
+}
+
+h2,
+p,
+button,
+.input-container {
+  margin-left: 3vw;
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-bottom: 3vh;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+input {
+  font-size: 1.2rem;
+  width: 20vw;
+  border: none;
+  border-bottom: 2px solid var(--form-text-color);
+  color: var(--form-text-color);
+  background-color: transparent;
+  padding: 5px;
+}
+
+.left-side-container {
+  background-color: var(--primary-color);
+  height: 100%;
+  width: 40vw;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.right-side-container {
+  background-color: var(--text-color);
+  height: 100%;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh 10vw;
+  margin-bottom: 4vh;
+}
+
+button {
+  font-size: 1.3rem;
+  padding: 1.3rem;
+  margin-bottom: 1.2rem;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+}
+
+p {
+  color: var(--form-text-color);
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
