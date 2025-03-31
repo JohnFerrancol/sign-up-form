@@ -6,10 +6,20 @@
   font-style: normal;
 }
 
-:root {
+:root.light {
   --primary-color: #00b14f;
   --secondary-color: #f6f6f6;
-  --form-text-color: #4d5959;
+  --form-text-color: #1d2b3a;
+  --error-message-color: #ed4337;
+  --font-style: "open_sansregular", sans-serif;
+
+  position: relative;
+}
+
+:root.dark {
+  --primary-color: #00b14f;
+  --form-text-color: #f6f6f6;
+  --secondary-color: #1d2b3a;
   --error-message-color: #ed4337;
   --font-style: "open_sansregular", sans-serif;
 
@@ -62,6 +72,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.theme-toggle {
+  position: absolute;
+  color: var(--form-text-color);
+  right: 3vw;
+  top: 5vh;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-label {
+  text-transform: capitalize;
+}
+
+.theme-logo {
+  width: 3rem;
+  height: auto;
 }
 
 h2,
