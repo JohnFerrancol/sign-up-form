@@ -7,6 +7,8 @@
 
 This is a project from [The Odin Project](https://theodinproject.com): [Project: Calculator](<[https://www.theodinproject.com/lessons/foundations-calculator](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)>). This project had us create a sign-up form for an imaginery service.
 
+This design requirement of the project is as follows: [Requirement](https://cdn.statically.io/gh/TheOdinProject/curriculum/afdbabfab03fbc34783c6b6f3920aba4a4d3b935/intermediate_html_css/forms/project_sign_up_form/imgs/sign-up-form.png). But the color scheme, picture, contents of the webpage can be of our own as the design requirement serves as a rough guideline.
+
 ## Learning Points
 
 - Understood on how to use forms in HTML and how to style them in CSS
