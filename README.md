@@ -25,4 +25,5 @@ This design requirement of the project is as follows: [Requirement](https://cdn.
 
 - [x] Understanding the design requirements of the webpage we need to do
 - [x] Taking inspiration from the design requirement given and add our own CSS into the webpage
+- [ ] Added toggle between light and dark theme
 - [ ] Added Form validation for using Javascript
